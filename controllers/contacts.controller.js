@@ -1,5 +1,4 @@
 // Contact controllers here
-
 import contactModel from '../models/contacts.models.js'
 
 const contactControllers={

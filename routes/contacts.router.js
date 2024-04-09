@@ -6,7 +6,6 @@ import contactControllers from '../controllers/contacts.controller.js';
 
 const router = expresss.Router();
 
-
 router.route('/').post(contactControllers.createContact).get(contactControllers.listContacts);
 
 router.route('/id/:id').patch(contactControllers.updateById).delete(contactControllers.deleteById).get(contactControllers.showById);

@@ -10,8 +10,6 @@ import swagger from "./docs/swagger.json" assert { type: "json" };
 
 app.use(express.json());//middleware
 app.use(cors());
-
-
 import router from './routes/contacts.router.js'
 
 app.use('/contact_app', router)
